@@ -1,3 +1,98 @@
+/* background: #FFFFFF;
+#212121
+#757575 
+*/
+
+:root {
+--prime-color: #757575;
+--title-color: #212121;
+--accent-color: #2196F3;
+--main-white-color: #FFFFFF;
+}
+
 body {
     font-family: Roboto;
+    background-color: var(--main-white-color);
+    color: var(--prime-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.logo {
+    color: #000000;
+}
+
+.logo-blue {
+    color: var(--accent-color);
+}
+
+/* Site nav */
+
+.site-nav .link {
+    color: var(--title-color);
+}
+
+.nav-contacts .link {
+    color: var(--prime-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.site-nav .link:hover,
+.nav-contacts .link:hover
+.site-nav .link:focus,
+.nav-contacts .link:focus {
+    color: var(--accent-color);
+}
+
+/* Hero */
+.hero-title {
+    color: var(--main-white-color);
+    background-color: var(--title-color);
+}
+
+.button {
+    color: var(--main-white-color);
+    background-color: var(--accent-color);
+}
+
+/* Benefits */
+
+.benefits-title {
+    color: var(--title-color);
+}
+
+/* Services */
+
+.section-title {
+    color: var(--title-color);
+}
+
+/* Team */
+
+.member-title {
+    color: var(--title-color);
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--title-color);
+}
+        
+
+.footer-logo {
+    color: var(--main-white-color);
+}
+
+.footer-address .link {
+    color: var(--main-white-color);
+}
+
+.contact-item .link {
+    color: rgba(255, 255, 255, 0.6);
 }
