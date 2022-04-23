@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-    <title>Портфолио</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,13 +14,13 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!--Head of page-->
+    <!--Header-->
     <header class="header">
       <nav class="navigation">
-        <a class="logo" href="./index.html" aria-label="Логотип сайта WebStudio">
-          <span class="logo-blue" lang="en">Web</span>Studio
+        <a class="logo" href="./index.html" aria-label="Логотип сайта WebStudio"
+          >Web<span class="logo-black" lang="en">Studio</span>
         </a>
-        <ul class="site-nav list">
+        <ul class="site-nav">
           <li class="item">
             <a class="link current" href="./index.html">Студия</a>
           </li>
@@ -34,7 +33,7 @@
         </ul>
       </nav>
 
-      <ul class="nav-contacts list">
+      <ul class="nav-contacts">
         <li class="item">
           <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
@@ -44,35 +43,36 @@
       </ul>
     </header>
 
-    <!--Page content-->
+    <!--Hero-->
     <main>
       <section class="hero">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
         <button class="button" type="button">Заказать услугу</button>
       </section>
+
       <!--Benefits-->
-      <section class="benefits">
-        <h2>Наши преимущества</h2>
-        <ul class="list">
-          <li class="item">
+      <section class="section">
+        <h2 class="visually-hidden">Наши преимущества</h2>
+        <ul class="benefits-list">
+          <li class="benefits-item">
             <h3 class="benefits-title">Внимание к деталям</h3>
             <p class="benefits-text">
               Идейные соображения, а также начало повседневной работы по формированию позиции.
             </p>
           </li>
-          <li class="item">
+          <li class="benefits-item">
             <h3 class="benefits-title">Пунктуальность</h3>
             <p class="benefits-text">
               Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
             </p>
           </li>
-          <li class="item">
+          <li class="benefits-item">
             <h3 class="benefits-title">Планирование</h3>
             <p class="benefits-text">
               Равным образом консультация с широким активом в значительной степени обуславливает.
             </p>
           </li>
-          <li class="item">
+          <li class="benefits-item">
             <h3 class="benefits-title">Современные технологии</h3>
             <p class="benefits-text">
               Значимость этих проблем настолько очевидна, что реализация плановых заданий.
@@ -80,31 +80,32 @@
           </li>
         </ul>
       </section>
-      <!--Services-->
+
+      <!--Work-->
       <section class="section">
         <h2 class="section-title">Чем мы занимаемся</h2>
-        <ul class="list">
-          <li class="item">
+        <ul class="work-list">
+          <li class="work-item">
             <img
-              class="tools-img"
+              class="work-img"
               src="./images/we-doing/box1.jpg"
               alt="Разработка"
               width="370"
               height="294"
             />
           </li>
-          <li class="item">
+          <li class="work-item">
             <img
-              class="tools-img"
+              class="work-img"
               src="./images/we-doing/box2.jpg"
               alt="Оптимизация"
               width="370"
               height="294"
             />
           </li>
-          <li class="item">
+          <li class="work-item">
             <img
-              class="tools-img"
+              class="work-img"
               src="./images/we-doing/box3.jpg"
               alt="Дизайн"
               width="370"
@@ -113,10 +114,11 @@
           </li>
         </ul>
       </section>
+
       <!--Team-->
       <section class="section">
         <h2 class="section-title">Наша команда</h2>
-        <ul class="member-list list">
+        <ul class="member-list">
           <li class="member-item">
             <img
               class="member-img"
@@ -167,9 +169,12 @@
 
     <!--Footer-->
     <footer class="footer">
-      <a class="footer-logo" href="./index.html"> <span class="logo-blue" lang="en">Web</span>Studio </a>
+      <a class="logo" href="./index.html"
+        >Web
+        <span class="logo-white" lang="en">Studio</span>
+      </a>
       <address class="address">
-        <ul class="footer-address list">
+        <ul class="footer-address">
           <li class="address-item">
             <a class="link" href="https://goo.gl/maps/hzVvKhw79iwVWXAN9"
               >г.Киев, пр-т Леси Украинки, 26</a
@@ -178,7 +183,9 @@
           <li class="contact-item">
             <a class="link" href="mailto:info@example.com">info@example.com</a>
           </li>
-          <li class="contact-item"><a class="link" href="tel:380991111111">+38 099 111 11 11</a></li>
+          <li class="contact-item">
+            <a class="link" href="tel:380991111111">+38 099 111 11 11</a>
+          </li>
         </ul>
       </address>
     </footer>
