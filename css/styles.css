@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: Roboto, font-family;
+    font-family: Roboto, sans-serif;
     color: var(--prime-color);
     background-color: var(--main-white-color);
     letter-spacing: 0.03em;
@@ -172,6 +172,7 @@ a {
 .filter:hover,
 .filter:focus {
     background-color: var(--accent-color);
+    color: var(--main-white-color);
 }
 
 /* Portfolio content*/
@@ -192,6 +193,10 @@ a {
 
 .footer {
     background-color: var(--bg-color);
+}
+
+.address {
+    font-style: normal;
 }
         
 .footer-address .link {
